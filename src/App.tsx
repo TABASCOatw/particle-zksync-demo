@@ -9,7 +9,7 @@ import { notification } from 'antd';
 import './App.css';
 
 const App = () => {
-  const { provider, sendTransaction } = useEthereum();
+  const { provider } = useEthereum();
   const { connect, disconnect } = useConnect();
   const { userInfo } = useAuthCore();
 
@@ -44,9 +44,8 @@ const App = () => {
 
 
     const tx = {
-      to: "0x696Bc9Df37BE518AaDFeefEd5cf242a716a3b8Ce",
-      value: ethers.utils.parseEther("0.001"),
-      from: await signer.getAddress()
+      to: "0x00000000000000000000000000000000000dEAD0",
+      value: ethers.utils.parseEther("0.001")
     };
 
     const txResponse = await signer.sendTransaction(tx);
