@@ -7,7 +7,7 @@
   </h3>
 </div>
 
-⚡️ Demo application showcasing utilization of Particle Network's Wallet-as-a-Service ([Particle Auth Core](https://docs.particle.network/developers/auth-service/core/web) in this case) on zkSync. This application facilitates social login and the execution of a sample (0.00001 ETH) transaction.
+⚡️ Demo application showcasing utilization of Particle Network's Wallet-as-a-Service ([Particle Auth Core](https://docs.particle.network/developers/auth-service/core/web) in this case) on zkSync. This application facilitates social login and the execution of a sample (0.001 ETH) transaction.
 
 Built using **Particle Auth Core**, **TypeScript**
 
